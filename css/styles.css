@@ -97,15 +97,15 @@ p{
   padding: 20px 0;
 }
 .contact-me{
-  margin-top: 50px
-  margin-bottom:50px
+  margin-top: 50px;
+  margin-bottom:50px;
   padding:50px;
 }
 .contact-message{
 width: 40%;
 margin: 50px auto;
 }
-.computer{
+.left{
   width: 200px;
   height: 200px;
   border-radius: 50%;
@@ -135,7 +135,7 @@ margin: 50px auto;
 .middle-container{
   margin: 100px 0;
 }
-.photography{
+.right{
   width: 200px;
   height: 200px;
   border-radius: 50%;
