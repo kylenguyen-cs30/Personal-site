@@ -26,12 +26,12 @@ h3 {
   color: #11999E;
 }
 
-a{
+/* a{
   color:#11999E;
   text-decoration: none;
   font-family: 'Montserrat',sans-serif;
-  margin: 10px 20px;
-}
+  margin: 20px;
+} */
 a:hover{
   color: #EAF6F6;
 }
@@ -118,7 +118,10 @@ margin: 50px auto;
 
 }
 .footer-link{
-
+  color:#11999E;
+  text-decoration: none;
+  font-family: 'Montserrat',sans-serif;
+  margin: 20px;
 }
 .hobbies-row{
   width: 50%;
@@ -152,9 +155,6 @@ margin: 50px auto;
   margin: 100px auto 100px auto;
   text-align: left;
   line-height: 2;
-
-
-
 }
 .top-container {
   background-color: #e4f9f4;
@@ -169,4 +169,41 @@ margin: 50px auto;
 .bottom-container{
   background-color: #66BFBF;
   padding: 50px 0 20px;
+}
+
+
+.textbox {
+  background-color: #e4f9f5; /* You can choose the color */
+  padding: 10px;
+  border-radius: 10px; /* Smooth the corners */
+  margin-top: 10px;
+  display: inline-block;
+  white-space: nowrap;
+  box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.1); /* Optional: for a slight shadow effect */
+}
+.textbox p {
+  margin: 0;
+  color: #40514E;
+  font-size: 0.875rem;
+}
+
+
+.projects-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.project-right{
+  width: 200px;
+  height: 200px;
+  float:right;
+  margin-left: 30px;
+}
+
+.project-a{
+  color:#11999E;
+  text-decoration: none;
+  font-family: 'Montserrat',sans-serif;
 }
